@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/rental.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,92.6,212;1,92.6,212&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h5 class="box-1">
+          <img src="images/logo.png" />
+        </h5>
+
+        <ul class="box-2">
+          <li><a href="#">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="booking.html">Booking</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="clearfix">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <!-- <div class="swiper-slide"><img src="images/carCover111.jpg" /></div> -->
+          <div class="swiper-slide" id="carCover">
+            <img src="images/carCover222.png" />
+          </div>
+          <div class="swiper-slide" id="carCover2">
+            <img src="images/carCover333.png" />
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </main>
+    <section class="clearfix" id="about">
+      <section>
+        <h1 class="banner">TRUSTED & RELIABLE CAR RENTAL FOR ALL OCCASIONS</h1>
+      </section>
+      <section class="aboutInfo">
+        <div class="info1">
+          <div>
+            <h6>HAVE CONCERNS?</h6>
+            <p>Did you just arrive in Ghana?</p>
+            <p>Do you need comfortable accessible rides?</p>
+            <p>Looking for affordable car rental?</p>
+            <p>Are well maintained cars a priority for you?</p>
+            <p>Planning a family trip?</p>
+            <p>Looking for a clean and well sanitized car?</p>
+          </div>
+        </div>
+        <div class="info2">
+          <div class="description">
+            <p hidden>
+              Look through our wide selection of vehicles and be spoilt for
+              options.
+            </p>
+            <p class="paragTwo" hidden>Name them, we got you.</p>
+          </div>
+          <div class="carRange" hidden>
+            <ul>
+              <li>Sedans</li>
+              <li>SUV</li>
+              <li>Luxury vehicles</li>
+              <li>Vans</li>
+              <li>MiniVans</li>
+              <li>Trucks</li>
+            </ul>
+          </div>
+          <div class="offer" id="offers">
+            <p>
+              We offer affordable and transparent prices for both short term and
+              long term travels. Pricing starts for as low as low as
+              <span>1000 Gh cedis,</span> and could vary based on distance
+            </p>
+          </div>
+          <div class="booking">
+            <ul>
+              <li>Call or WhatsApp</li>
+              <li>to discuss</li>
+              <li>
+                <button>
+                  <a href="tel:15197299413"
+                    ><img src="images/phone.png" />+233256087092</a
+                  >
+                </button>
+              </li>
+              <!-- <li>
+                <a href="https://api.whatsapp.com/send?phone=15197299413"
+                  >WhatsApp: Send Message</a
+                >
+              </li> -->
+              <li>
+                <button>
+                  <a href="https://api.whatsapp.com/send?phone=233256087092"
+                    >WhatsApp: Send Message</a
+                  >
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="product">
+      <h2 class="product-category">Vehicle fleet</h2>
+      <button class="pre-btn"><img src="images/arrow11.png" alt="" /></button>
+      <button class="nxt-btn"><img src="images/arrow11.png" alt="" /></button>
+      <div class="product-container">
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/car11.png" class="product-thumb" alt="" />
+            <button class="card-btn">add to wishlist</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand"></h2>
+            <p class="product-short-description"></p>
+            <span class="price"></span>
+            <span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/car22.png" class="product-thumb" alt="" />
+            <button class="card-btn">add to wishlist</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand"></h2>
+            <p class="product-short-description"></p>
+            <span class="price"></span>
+            <span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/car33.png" class="product-thumb" alt="" />
+            <button class="card-btn">add to wishlist</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand"></h2>
+            <p class="product-short-description"></p>
+            <span class="price"></span>
+            <span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/carInteriorOne.png" class="product-thumb" alt="" />
+            <button class="card-btn">add to wishlist</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand"></h2>
+            <p class="product-short-description"></p>
+            <span class="price"></span>
+            <span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/carInteriorTwo.png" class="product-thumb" alt="" />
+            <button class="card-btn">add to wishlist</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand"></h2>
+            <p class="product-short-description"></p>
+            <span class="price"></span>
+            <span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img
+              src="images/carInteriorThre.png"
+              class="product-thumb"
+              alt=""
+            />
+            <button class="card-btn">add to wishlist</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand"></h2>
+            <p class="product-short-description"></p>
+            <span class="price"></span>
+            <span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/carBooth.png" class="product-thumb" alt="" />
+            <button class="card-btn">add to wishlist</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand"></h2>
+            <p class="product-short-description"></p>
+            <span class="price"></span>
+            <span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/carInteriorFou.jpg" class="product-thumb" alt="" />
+            <button class="card-btn">add to wishlist</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand"></h2>
+            <p class="product-short-description"></p>
+            <span class="price"></span>
+            <span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img
+              src="images/carInteriorFive.jpg"
+              class="product-thumb"
+              alt=""
+            />
+            <button class="card-btn">add to wishlist</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand"></h2>
+            <p class="product-short-description"></p>
+            <span class="price"></span>
+            <span class="actual-price"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="vehicles">
+      <div class="container2">
+        <!-- video starts -->
+
+        <div class="container">
+          <div class="video_player">
+            <video preload="metadata" class="main-video">
+              <source
+                src="videos/touristSites.mp4"
+                size="480"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
+
+        <div class="visits">
+          <h1>Book now for your next road trip. Drive in comfort and style</h1>
+
+          <ul>
+            <li>Visit tourist sites</li>
+            <li>Go say Hi to family and friends</li>
+            <li>Explore nature</li>
+            <li>Chauffeur services</li>
+          </ul>
+        </div>
+
+        <div class="bookNow">
+          <form name="contact" netlify>
+            <label for="firstName">First name:</label>
+            <input
+              type="text"
+              name="firstName"
+              placeholder="First name"
+              class="firstName"
+            />
+            <br />
+
+            <label for="lastName">Last name:</label>
+            <input
+              type="text"
+              name="lastName"
+              placeholder="Last name"
+              class="lastName"
+            />
+            <br />
+
+            <label for="phoneNumber">Phone number:</label>
+            <input
+              type="text"
+              name="phoneNumber"
+              placeholder="Phone Number"
+              class="phoneNumber"
+            />
+            <br />
+
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              name="email"
+              placeholder="Email "
+              class="email"
+            />
+
+            <br />
+            <br />
+            <label for="message" id="messageLabel"> Message:</label>
+            <textarea name="message" id="message"> Send us a message</textarea>
+            <br />
+            <br />
+
+            <button type="submit" class="submitOne">Book Now</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="clearfix">
+      <section class="socials">
+        <section class="socialMedia">
+          <h4><img src="images/logo.png" /></h4>
+          <ul class="icons">
+            <li><img src="images/facebook.png" /> :facebook</li>
+            <li><img src="images/instagram.png" /> :Instagram</li>
+            <li><img src="images/twitter.png" /> :Twitter</li>
+          </ul>
+        </section>
+        <section class="locations">
+          <h4>Locations</h4>
+          <ul class="address">
+            <li>Address:Kwashieman, Accra, Ghana</li>
+            <li>Email :customerservice@akdrentals.org</li>
+            <li>Phone #:+233-25-608-7092</li>
+            <li>Phone #:+233-25-608-7093</li>
+          </ul>
+        </section>
+      </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
