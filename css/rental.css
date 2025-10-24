@@ -200,7 +200,8 @@ main {
   padding: 10px 10px;
 }
 
-.info1 div h6 {
+.info1 div .concerns {
+  font-size: 1.5rem;
   border: 1px solid black;
   width: 52%;
   margin-left: 2%;
@@ -587,7 +588,7 @@ main {
   height: 30%;
 } */
 
-.visits h1 {
+.visits h2 {
   text-align: center;
   margin-top: 30%;
   margin-right: 30%;
@@ -1041,7 +1042,7 @@ video::cue {
   margin-left: 2%;
 }
 
-.locations h4 {
+.locations h3 {
   margin-top: 2%;
 }
 .icons {
@@ -1342,7 +1343,7 @@ video::cue {
     margin-top: 20%;
   }
 
-  .visits h1 {
+  .visits h2 {
     margin-top: 50%;
     margin-right: 10%;
     margin-left: 15%;
@@ -1378,6 +1379,17 @@ video::cue {
   .aboutInfo .info2 .offer {
     padding-top: 15%;
   }
+
+  .info1 div {
+    border: 1px solid black;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    width: 95%;
+    padding: 10px 10px;
+    margin-top: 10%;
+    background-color: white;
+    color: black;
+  }
 }
 
 /* html {
@@ -1397,7 +1409,7 @@ video::cue {
     flex-direction: column;
   }
 
-  .visits h1 {
+  .visits h2 {
     margin-top: 10%;
     margin-right: 35%;
     margin-left: 35%;
@@ -1483,7 +1495,7 @@ video::cue {
     height: 250px;
   }
 
-  .visits h1 {
+  .visits h2 {
     margin-top: 10%;
     margin-right: 10%;
     margin-left: 15%;
@@ -1759,7 +1771,7 @@ video::cue {
     margin-left: 1%;
   }
 
-  .visits h1 {
+  .visits h2 {
     margin-top: 10%;
     margin-right: 10%;
     margin-left: 15%;
